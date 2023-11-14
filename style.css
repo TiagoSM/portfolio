@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 100vw;  
+    background-color: aqua;
+}
+
+nav {
+    display: flex;
+}
+
+section {
+    height: 100vw;
+    background-color: bisque;
+}
+
+#projetos {
+    height: 100vw;      
+    background-color: aqua;
+}
+
+footer {
+    height: 20vw;  
+    background-color: bisque;
+}
