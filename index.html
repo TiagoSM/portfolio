@@ -1,52 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">    
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">    
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+    <script src="script.js"></script>  
     <title>Tiago Mesquita</title>
 </head>
 <body>
+    <nav id="navigation">
+        <h2>Portfólio</h2>
+        <button id="nav-button" onclick="toogleNav()"><div></div><div></div><div></div></button>
+        <div id="links">
+            <a href="#navigation">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="#projects">Projetos</a>
+            <a href="#footer">Contatos</a> 
+        </div>
+    </nav>
         <header>
-            <nav id="navegação">
-                <h2>Portfolio</h2>
-                <a href="#navegação">Home</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#cabeçalho">Contatos</a>
-            </nav>
-            <h1>Tiago Santos Mesquita</h1>
+            <h1>Tiago Mesquita</h1>
             <h3>Programador Front-end</h3>
+            <div id="logo">
+                <img src="./src/Logo.png" alt="Logo Codando com Tiago">
+            </div>
         </header>
-        <section id="sobre">
+        <section id="about">
             <h2>Sobre</h2>
-            <img src="" alt="">
+            <img src="" alt="Foto de perfil">
             <p>Eu sou um Programador Front End, tenho conhecimento nas tecnologias: HTML, CSS, JavaScript.</p>
             <h4>Entre em contato</h4>
         </section>
-        <div id="projetos">
+        <div id="projects">
             <h2>Projetos</h2>
-            <div id="projeto-1">
+            <div id="project-1">
+                <img src="" alt="">
+                <h3>parallax-website</h3>
+                <h4>Site onde as imagens se movem em velocidades diferentes em relação aos elementos de texto, formando um efeito de profundidade e 3D. <br>Tecnologias: HTML & CSS, Git, Github, Visual Studio Code (IDE), Site responsivo.</h4>
+                <a href="">Ver meu projeto</a>
+            </div>
+            <div id="project-2">
                 <img src="" alt="">
                 <h3>social-linking</h3>
-                <a href="">Site de agrupador de links, o famoso "Link na Bio". Feito através das tecnologias: HTML, CSS, JavaScript, Git, Github, Figma, Visual Studio Code (IDE), Site responsivo.</a>
-                <h4>Ver meu projeto</h4>
+                <h4>Site de agrupador de links, o famoso "Link na Bio". <br>Tecnologias: HTML, CSS, JavaScript, Git, Github, Figma, Visual Studio Code (IDE), Site responsivo.</h4>
+                <a href="">Ver meu projeto</a>
             </div>
-            <div id="projeto-2">
+            <div id="project-3">
                 <img src="" alt="">
-                <h3>site-jujutsu-kaisen</h3>
-                <a href="">A base do projeto foi feita acompanhando o workshop do canal Dev em Dobro. Mas as imagens, textos e tamanho foram adicionados por mim. (Imagens encontradas no Google)</a>
-                <h4>Ver meu projeto</h4>
-            </div>
-            <div id="projeto-3">
-                <img src="" alt="">
-                <h3>web-pokedex</h3>
-                <a href="">Site para treinar integração de API no Front-end, através do PokeAPI.</a>
-                <h4>Ver meu projeto</h4>
+                <h3>social-linking</h3>
+                <h4>Site de agrupador de links, o famoso "Link na Bio". Feito através das tecnologias: HTML, CSS, JavaScript, Git, Github, Figma, Visual Studio Code (IDE), Site responsivo.</h4>
+                <a href="">Ver meu projeto</a>
             </div>
         </div>
-        <footer id="cabeçalho">
+        <footer id="footer">
             <h2>Contatos</h2>
             <a href="">Github</a>
             <a href="">LinkedIn</a>
