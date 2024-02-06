@@ -16,15 +16,13 @@ header {
 }
 
 header h1, header h3 {
-    padding-top: 1%;
-    font-size: 1.5em;
     margin-bottom: 2%;
     text-align: center;
 }
 
 #logo {
+    margin-top: 3%;
     text-align: center;
-    padding-top: 15%;
 }
 
 header img {
@@ -37,7 +35,7 @@ nav {
     color: #000000;
     width: 100%;
     float: right;
-    margin-bottom: 15%;
+    margin-bottom: 7%;
 }
 
 nav #links {
