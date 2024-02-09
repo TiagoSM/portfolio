@@ -172,3 +172,7 @@ footer {
     text-align: center;
     background-color: var(--footer-color);
 }
+
+footer h2 {
+    padding: 5%;
+}
