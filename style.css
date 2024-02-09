@@ -134,7 +134,7 @@ section a:hover {
 
 
 #projects {
-    height: 100vh; 
+    height: 110vh; 
     color: var(--text-color1);     
     background-color: var(--project-color);
     text-align: center;
