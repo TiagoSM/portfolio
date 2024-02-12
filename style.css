@@ -22,6 +22,12 @@
     --footer-color: #2ecc71;
 }
 
+body {
+    font-family: "Fira Code", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: light;
+}
 
 header {
     height: 100vh;
@@ -66,6 +72,9 @@ nav a {
     color: var(--black);
     background-color: var(--nav-links-color);
     display: block;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
 }
 
 button:hover, a:hover {
@@ -75,9 +84,12 @@ button:hover, a:hover {
 nav h2 {
    margin-left: .1%; 
    padding: 2%;
-   font-size: 1.75em;
    width: 80%;
    float: left;
+   font-family: "Source Code Pro", monospace;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: 1em;
 }
 
 nav button {
@@ -134,7 +146,7 @@ section a:hover {
 
 
 #projects {
-    height: 110vh; 
+    height: 150vh; 
     color: var(--text-color1);     
     background-color: var(--project-color);
     text-align: center;
@@ -157,11 +169,15 @@ section a:hover {
 }
 
 #projects h3 {
-    margin-top: 9%;
+    margin-top: 10%;
+}
+
+#projects img {
+    max-width: 100%;
+    height: auto;
 }
 
 #projects h4 {
-    margin-top: 7%;
     margin-bottom: 10%;
 }
 
@@ -233,6 +249,10 @@ footer i:hover {
     }
 
 
+    #projects {
+        height: 160vh;
+    }
+
     #projects a {
         padding: 3%;
     }
@@ -285,6 +305,17 @@ footer i:hover {
 
     #projects {
         padding: 3%;
+        height: 80vh;
+    }
+
+    #project-1 {
+        width: 45%;
+        float: left;
+    } 
+
+    #project-2 {
+        width: 45%;
+        float: right;
     }
 
     #projects a {
@@ -296,3 +327,38 @@ footer i:hover {
         padding: 1.5%;
     }
 }
+
+@media (min-width: 1024px) {
+    nav {
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+    }
+    
+    nav button {
+        display: none;
+    }
+
+    nav h2 {
+        width: 20%;
+        font-size: 2em;
+    }
+
+    nav a {
+        text-align: left;
+        display: block;
+        float: right;
+        width: 15%;
+        background-color: var(--nav-color);
+    }
+
+    nav #links {
+        width: 79%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+
+}
+/*Finalizar o responsive navbar*/
