@@ -360,5 +360,24 @@ footer i:hover {
     }
 
 
+    section {
+        height: 75vh;
+    }
+
+    section img {
+        height: 15em;
+        width: 15em;
+    }
+
+    section a {
+        padding: 2%;
+    }
+
+    #projects {
+        height: 85vh;
+    }
+
+    footer {
+        height: 40vh;
+    }
 }
-/*Finalizar o responsive navbar*/
