@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    height: 100vh;
+    padding: 10vh 0;
     background-color: var(--header-color);
     color: var(--text-color1);
 }
@@ -108,7 +108,7 @@ nav button div {
 
 
 section {
-    height: 70vh;
+    padding: 5vh 0;
     background-color: var(--about-color);
     text-align: center;
 }
@@ -132,7 +132,7 @@ section p {
 section a {
     text-decoration: none;
     color: var(--button-about-hover);
-    padding: 5%;
+    padding: 1em;
     background-color: var(--button-about);
     border-radius: 2em;
     transition: background-color .5s;
@@ -146,17 +146,16 @@ section a:hover {
 
 
 #projects {
-    height: 150vh; 
+    padding: 5vh;
     color: var(--text-color1);     
     background-color: var(--project-color);
     text-align: center;
-    padding: 5%;
 }
 
 #projects a {
     text-decoration: none;
     color: var(--button-project-hover);
-    padding: 5%;
+    padding: 1em;
     background-color: var(--button-project);
     border-radius: 2em;
     transition: background-color .5s;
@@ -183,7 +182,7 @@ section a:hover {
 
 
 footer {
-    height: 25vh;  
+    padding: 0 0 5vh 0;
     color: var(--text-color1);
     text-align: center;
     background-color: var(--footer-color);
@@ -225,10 +224,6 @@ footer i:hover {
         opacity: 1;
     }
 
-    header {
-        height: 120vh;
-    }
-
 
     section h2 {
         padding-top: 3%;
@@ -244,18 +239,7 @@ footer i:hover {
         margin-bottom: 6%;
     }
 
-    section a {
-        padding: 3%;
-    }
 
-
-    #projects {
-        height: 160vh;
-    }
-
-    #projects a {
-        padding: 3%;
-    }
 
     #projects h4 {
         margin-bottom: 6%;
@@ -298,28 +282,17 @@ footer i:hover {
         margin-bottom: 5%;
     }
 
-    section a {
-        padding: 2.5%;
+
+
+    #projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
 
-
-    #projects {
-        padding: 3%;
-        height: 80vh;
-    }
-
-    #project-1 {
+    #project-1, #project-2 {
         width: 45%;
-        float: left;
-    } 
-
-    #project-2 {
-        width: 45%;
-        float: right;
-    }
-
-    #projects a {
-        padding: 2.5%;
+        margin-bottom: 5vh;
     }
 
 
@@ -369,13 +342,7 @@ footer i:hover {
         width: 15em;
     }
 
-    section a {
-        padding: 2%;
-    }
 
-    #projects {
-        height: 85vh;
-    }
 
     footer {
         height: 40vh;
