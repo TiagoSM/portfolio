@@ -291,8 +291,8 @@ footer i:hover {
         justify-content: space-around;
     }
 
-    #project-1, #project-2 {
-        width: 45%;
+    #project-1, #project-2, #project-3 {
+        width: 25%;
         margin-bottom: 5vh;
     }
 
